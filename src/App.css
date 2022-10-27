@@ -12,7 +12,8 @@
 .btn {
   padding: 24px 32px;
   margin: 12px;
-  width: 1152px;
+  max-width: 1152px;
+  width: 100%;
   height: 76px;
   background: #EAECF0;
 border: 1px solid #EAECF0;

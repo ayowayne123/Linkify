@@ -2,7 +2,7 @@ import React from 'react'
 import '../App.css';
 import profile from '../Ayomide_profile.jpeg'
 
-function Home() {
+function Profile() {
   return (
     <div>
         <img className="profile" src={profile} alt="Profile of Ayomide" width="88" height="88" />
@@ -17,4 +17,4 @@ function Home() {
   )
 }
 
-export default Home
+export default Profile
