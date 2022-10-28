@@ -10,7 +10,7 @@ function Profile() {
         <div className="profile_name">Ayomide Ogu</div>
         <div className='icons'>
           <span className='twitter' id='twitter'>
-           <AiFillTwitterCircle/>  </span> @ayomide_wayne
+           <AiFillTwitterCircle/>  </span><span > @ayomide_wayne </span>
           <span className='slack'> <AiFillSlackCircle/></span>
            </div>
 
