@@ -5,25 +5,27 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  
+  justify-content: space-between;
+ 
+ 
 }
 
 .container{
   max-width: 1200px;
   margin: auto;
   text-align: center;
+ 
 }
 
 /* For the Profile Container */
 .profile_cont{
-  margin: auto;
+  margin: 20px;
   
   
 }
 /* For the Profile Image */
 .profile{
-  margin: 20px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
   border-radius: 275px;
   
 }
@@ -70,6 +72,7 @@
 .twitter{
   font-size: 38px;
   color: #1DA1F2;
+ 
 }
 
 
@@ -136,6 +139,12 @@
     align-items: flex-start;
     padding: 10px 20px 0px 20px;
   
+  }
+
+  .profile_cont{
+    margin: 10px;
+    
+    
   }
 
 }

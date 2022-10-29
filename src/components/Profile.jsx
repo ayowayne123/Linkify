@@ -9,8 +9,8 @@ function Profile() {
        <img className="profile" src={profile} alt="Profile of Ayomide" width="88" height="88" />
         <div className="profile_name">Ayomide Ogu</div>
         <div className='icons'>
-        <a href="https://twitter.com/Ayomide_wayne"> <span className='twitter' id='twitter'>
-          <AiFillTwitterCircle/>  </span><span> @ayomide_wayne  </span></a>
+        <span className='twitter' id='twitter'>
+          <AiFillTwitterCircle/>  </span>  <a href="https://twitter.com/Ayomide_wayne"><span> @ayomide_wayne  </span></a>
           <span className='slack'> <AiFillSlackCircle/></span>
            </div>
 

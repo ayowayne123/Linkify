@@ -8,9 +8,9 @@ function App() {
   return (
    
     <div className="App container">
-      <> <Profile/> </> 
-      <> <Link/>  </>
-       <> <Footer/> </>
+      <div> <Profile/> </div> 
+      <div> <Link/>  </div>
+       <div> <Footer/> </div>
     </div>
   );
 }
