@@ -7,7 +7,7 @@ import Link from './components/Links/Link';
 function App() {
   return (
    
-    <div className="App">
+    <div className="App container">
       <> <Profile/> </> 
       <> <Link/>  </>
        <> <Footer/> </>

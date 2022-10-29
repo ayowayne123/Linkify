@@ -1,8 +1,7 @@
 
 
-
 .App {
-  text-align: center;
+  
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -10,6 +9,18 @@
   
 }
 
+.container{
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+/* For the Profile Container */
+.profile_cont{
+  margin: auto;
+  
+  
+}
 /* For the Profile Image */
 .profile{
   margin: 20px 0px 0px 0px;
@@ -41,6 +52,12 @@
 
 .icons:hover{
   color: #1DA1F2;
+}
+
+.bio a {
+  outline: none;
+  text-decoration: none;
+  color: inherit;
 }
 
 
@@ -91,6 +108,35 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 30px 10px 30px;
+  padding: 10px 0px 10px 0px;
 
 }
+
+/* Responsive Designs */
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 900px) {
+  .btn {
+    padding: 10px 20px;
+    margin: 12px 6px ;
+    width: 90%;
+    height: 68px;
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 20px;
+   
+  
+  }
+  .Last_footer{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px 20px 0px 20px;
+  
+  }
+
+}
+
