@@ -1,16 +1,29 @@
 import React from 'react'
-import Button from './Button';
 import { AiFillGithub } from "react-icons/ai";
 import Slack from "../../../src/slack.svg";
 
 function Link() {
   return (
     <div className='Link'>
-        <Button  btn_Id="btn__zuri"  as="a" href="https://training.zuri.team" text="Zuri Team" />
-        <Button  btn_Id="books" as="a" href="https://books.zuri.team"  text="Zuri Books" subtext="Find Books about Design and Coding"/>
-        <Button  btn_Id="book__python" as="a" href=" https://books.zuri.team/python-for-beginners?ref_id=ayomidewayne"  text="Python Books"  subtext="Buy Ayomide's Book on Python"/>
-        <Button btn_Id="pitch" as="a" href="https://background.zuri.team" text="Background Check for Coders" subtext="Find out more information about your developers"/>
-        <Button btn_Id="book__design" as="a" href="https://books.zuri.team/design-rules" text="Design Books" subtext="Get a Free Design for your book, courtesy Zuri"/>
+      <div className='btn'> <a href="https://training.zuri.team"  id='books' >
+        <div className='text'> Zuri Team
+         </div> </a> </div>
+      <div className='btn'> <a href="https://books.zuri.team"  id='books' >
+        <div className='text'> <span>Zuri Books </span>
+        <span className='subtext'> Find Books about Design and Coding </span> </div> </a> </div> 
+
+        <div className='btn'> <a href="https://books.zuri.team/python-for-beginners?ref_id=ayomidewayne"  id='book__python'>
+        <div className='text'> <span>Python Books </span>
+      <span className='subtext'> Buy Ayomide's Book on Python </span> </div> </a> </div>
+
+       <div className='btn'>  <a href="https://background.zuri.team" id='pitch' >
+        <div className='text'> <span>Background Check for Coders</span>
+      <span className='subtext'>Find out more information about your developers </span> </div>  </a> </div>
+
+        <div className='btn'> <a href="https://books.zuri.team/design-rules" id='book__design' >
+        <div className='text'> <span>Design Books</span>
+      <span className='subtext'>Get a Free Design for your book, courtesy Zuri </span> </div> </a>  </div>
+
         <span className='bio'> 
            <a href="https://slack.com"> <img src={Slack} alt='slack' /></a> 
            <a href="https://github.com/ayowayne123"> <AiFillGithub/></a> 
