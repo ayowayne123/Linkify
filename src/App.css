@@ -87,12 +87,22 @@
   border: 1px solid #EAECF0;
   border-radius: 8px;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
   cursor: pointer;
-  font-family: 'Inter';
   color: #101828;
 
 
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+}
+
+.subtext{
+  font-size: 14px;
+  padding: 3px;
+  font-weight: normal;
 }
 
 .btn:hover {

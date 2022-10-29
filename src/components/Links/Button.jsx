@@ -1,9 +1,13 @@
 import React from 'react'
 
-const Button = ({ text,btn_Id, as: Component = 'button', ...rest}) => {
+const Button = ({ subtext,text,btn_Id, as: Component = 'button', ...rest}) => {
     
   return (
-   <div><Component {...rest}><button id={btn_Id} className='btn'>{text}</button></Component> </div>
+   <div><Component {...rest}><button id={btn_Id} className='btn'>
+    <div className='text'> <span>{text} </span>
+   <span className='subtext'>  {subtext} </span> </div></button> </Component>
+  
+    </div>
   )
 }
 
