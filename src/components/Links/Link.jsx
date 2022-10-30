@@ -5,24 +5,24 @@ import Slack from "../../../src/slack.svg";
 function Link() {
   return (
     <div className='Link'>
-      <div className='btn'> <a href="https://training.zuri.team"  id='books' >
+      <a href="https://training.zuri.team" className='btn' id='books' >
         <div className='text'> Zuri Team
-         </div> </a> </div>
-      <div className='btn'> <a href="https://books.zuri.team"  id='books' >
+         </div> </a> 
+      <a href="https://books.zuri.team"  id='books' className='btn'>
         <div className='text'> <span>Zuri Books </span>
-        <span className='subtext'> Find Books about Design and Coding </span> </div> </a> </div> 
+        <span className='subtext'> Find Books about Design and Coding </span> </div> </a> 
 
-        <div className='btn'> <a href="https://books.zuri.team/python-for-beginners?ref_id=ayomidewayne"  id='book__python'>
+         <a href="https://books.zuri.team/python-for-beginners?ref_id=ayomidewayne" className='btn' id='book__python'>
         <div className='text'> <span>Python Books </span>
-      <span className='subtext'> Buy Ayomide's Book on Python </span> </div> </a> </div>
+      <span className='subtext'> Buy Ayomide's Book on Python </span> </div> </a> 
 
-       <div className='btn'>  <a href="https://background.zuri.team" id='pitch' >
+         <a href="https://background.zuri.team" className='btn' id='pitch' >
         <div className='text'> <span>Background Check for Coders</span>
-      <span className='subtext'>Find out more information about your developers </span> </div>  </a> </div>
+      <span className='subtext'>Find out more information about your developers </span> </div>  </a> 
 
-        <div className='btn'> <a href="https://books.zuri.team/design-rules" id='book__design' >
+         <a href="https://books.zuri.team/design-rules" className='btn' id='book__design' >
         <div className='text'> <span>Design Books</span>
-      <span className='subtext'>Get a Free Design for your book, courtesy Zuri </span> </div> </a>  </div>
+      <span className='subtext'>Get a Free Design for your book, courtesy Zuri </span> </div> </a>  
 
         <span className='bio'> 
            <a href="https://slack.com"> <img src={Slack} alt='slack' /></a> 

@@ -11,7 +11,7 @@ function Profile() {
         <div className='icons'>
         <span className='twitter' id='twitter'>
           <AiFillTwitterCircle/>  </span>  <a href="https://twitter.com/Ayomide_wayne"><span> @ayomide_wayne  </span></a>
-          <span className='slack'> <AiFillSlackCircle/></span>
+          <span className='slack' id='slack'> <AiFillSlackCircle/> @AyomideWayne</span>
            </div>
 
     </div>
