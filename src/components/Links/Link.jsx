@@ -5,7 +5,7 @@ import Slack from "../../../src/slack.svg";
 function Link() {
   return (
     <div className='Link'>
-      <a href="https://training.zuri.team" className='btn' id='btn_zuri' >
+      <a href="https://training.zuri.team" className='btn' id='btn__zuri' >
         <div className='text'> Zuri Team
          </div> </a> 
       <a href="https://books.zuri.team"  id='books' className='btn'>
