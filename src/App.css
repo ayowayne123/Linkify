@@ -111,8 +111,8 @@
 }
 
 .btn:hover {
-  background-color: #4CAF50; /* Green */
-  color: white;
+  background: #c1c2c7;
+  transition: ease-in-out;
 }
 .Link{
   justify-self: flex-start;
