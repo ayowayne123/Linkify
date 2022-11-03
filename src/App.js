@@ -1,17 +1,23 @@
 import './App.css';
 import React from 'react';
-import Profile from './components/Profile';
 import Footer from './components/Footer';
-import Link from './components/Links/Link';
+import Home from './pages/Home';
+import { Route,Routes } from 'react-router-dom';
+import Contact from './pages/Contact';
+
 
 function App() {
   return (
-   
+   <>
     <div className="App container">
-      <Profile/> 
-      <Link/>  
-       <Footer/> 
+      <Routes>
+      <Route path='/' element={<Home />}/>
+      <Route path='/contact' element={<Contact />}/>
+      </Routes>
+      <Footer/> 
     </div>
+    
+    </>
   );
 }
 

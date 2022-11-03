@@ -24,6 +24,10 @@ function Link() {
         <div className='text'> <span>Design Books</span>
       <span className='subtext'>Get a Free Design for your book, courtesy Zuri </span> </div> </a>  
 
+      <a href="/contact" className='btn' id='contact' >
+        <div className='text'> <span>Contact Me</span>
+      <span className='subtext'>Get in touch with me </span> </div> </a>  
+
         <span className='bio'> 
            <a href="https://slack.com"> <img src={Slack} alt='slack' /></a> 
            <a href="https://github.com/ayowayne123"> <AiFillGithub/></a> 
