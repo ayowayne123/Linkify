@@ -97,6 +97,8 @@
 
 }
 
+/* Ohemaa how's you doing */
+
 .text{
   display: flex;
   flex-direction: column;
@@ -132,24 +134,139 @@
 
 .contact-form
 {
-  max-width: 1100px;
+  max-width: 750px;
   width: 100%;
-  height: 70vh;
-  
+  height: 100%;
   margin: auto;
   display: flex;
   flex-direction: column;
 
+
 }
+.contact-me{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-content: space-between;
+  margin-bottom: 30px;
+}
+
+.top{
+ font-size: 36px;
+ line-height: 44px; 
+ font-weight: 600;
+ margin:5px 0px;
+}
+
+.top-little{
+  font-size: 20px;
+  line-height: 30px; 
+  
+  margin:10px 0px;
+ }
 .main-form
 {
- 
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-
+  width: 100%;
+  
 }
 
+.main-form input {
+  width: 100%;
+  padding: 10px 14px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 8px;
+  border-color: #D0D5DD;
+  border-style: solid;
+  border-width: 1px;
+}
+
+input:invalid::after {
+  border: 1px solid red;
+}
+
+.main-form textarea {
+  width: 100%;
+  padding: 12px 14px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  padding-right: 2%;
+  line-height: 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  border-color: #D0D5DD;
+  border-style: solid;
+  border-width: 1px;
+}
+
+
+.main-form label {
+  display: flex;
+  float: left;
+  width: 98%;
+  flex-direction: column;
+  font-size: 14px;
+  line-height: 20px;
+  padding:  5px 0px;
+ 
+}
+.main-form label.half{
+	float: left;
+	width: 50%;
+}
+
+.main-form input[type=text]{
+	
+  width: 96%;
+	
+}
+.main-form label[data-error]::after {
+
+content: attr(data-error);
+}
+.main-form input:focus {
+  outline: none;
+  border-color: #84CAFF;
+  border-style: solid;
+  border-width: 1px;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  transition: ease-in-out, width .35s ease-in-out;
+ 
+}
+
+.main-form textarea:focus {
+  outline: none;
+  border-color: #84CAFF;
+  border-style: solid;
+  border-width: 1px;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px #D1E9FF;
+  transition: ease-in-out, width .35s ease-in-out;
+ 
+}
+.main-form label span.label-text{
+	
+	
+	-webkit-transition: all 0.25s;
+	transition: all 0.25s;
+  text-align: left;
+}
+textarea::placeholder {
+  text-decoration: none; 
+  font-style: none;
+  font-family: default;
+  font-size: 16px;
+  
+}
+
+.submit{
+  background-color:#1570EF ;
+  color: white;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 12px 20px;
+}
 /* Responsive Designs */
 
 
@@ -181,6 +298,22 @@
     
     
   }
+  .main-form label.half{
+    float: left;
+    width: 100%;
+  }
+  .contact-form {
+    
+    padding:  5px 10px;
+   
+  }
 
 }
-
+@media only screen and (min-width: 1540px) {
+  .contact-form
+  {
+    /* max-width: 1100px; */
+   
+  
+  }
+}
